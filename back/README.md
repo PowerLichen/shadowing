@@ -1,9 +1,14 @@
 # Shadowing Server API
 기본적인 회원정보 시스템과, 쉐도잉 기능 구현을 위한 API.
 
+## 목차
+* 회원 시스템 API
+    * [loadUser](#loadUser)
+    * [Join](#Join)
+* 쉐도잉 영상 API
 
-## loadUser
 ---
+## loadUser
 ```
 GET {{URL}}/user/loadUser
 ```
@@ -25,9 +30,8 @@ GET {{URL}}/user/loadUser
     * Code: 200
     * Contents: `Null`
 
-
-## Join
 ---
+## Join
 ```
 POST {{URL}}/user/Join
 ```
@@ -50,9 +54,8 @@ POST {{URL}}/user/Join
     * Code: 404
     * Contents: `{ 'Sorry cannot find that!' }`
 
-
-## checkId
 ---
+## checkId
 ```
 POST {{URL}}/user/checkId
 ```
@@ -78,9 +81,8 @@ POST {{URL}}/user/checkId
     * Code: 403
     * Contents: `{ '해당 아이디가 이미 DB에 있습니다.' }`
 
-
-## login
 ---
+## login
 ```
 POST {{URL}}/user/login
 ```
@@ -121,9 +123,8 @@ POST {{URL}}/user/login
     * Code: 403
     * Contents: `{ message: '비밀번호가 틀립니다.' }`
 
-
-## logout
 ---
+## logout
 ```
 GET {{URL}}/user/logout
 ```
@@ -133,9 +134,8 @@ GET {{URL}}/user/logout
     * Code: 200
     * Contents: `{ 'ok' }`
 
-
-## studyTime
 ---
+## studyTime
 ```
 POST {{URL}}/user/studyTime
 ```
@@ -162,9 +162,8 @@ POST {{URL}}/user/studyTime
     * Code: 404
     * Contents: `{ 'Sorry cannot find that!' }`
 
-
-## loadscript
 ---
+## loadscript
 ```
 GET {{URL}}/video/loadscript/:uid/:videoId
 ```
@@ -201,9 +200,8 @@ DB에서 영상 시청 기록을 불러오고, 해당 영상에 맞는 자막 �
     * Code: 404
     * Contents: `{ 'Sorry cannot find that!' }`
 
-
-## reloadCaption
 ---
+## reloadCaption
 ```
 POST {{URL}}/video/reloadCaption
 ```
@@ -237,9 +235,8 @@ curIndex 기준으로 자막을 10개 호출하여 반환.
     * Code: 404
     * Contents: `{ 'Sorry cannot find that!' }`
 
-
-## loadCurIndex
 ---
+## loadCurIndex
 ```
 POST {{URL}}/video/loadCurIndex
 ```

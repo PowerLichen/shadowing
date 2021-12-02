@@ -32,3 +32,6 @@ YOUTUBE API 비디오 불러오기<br><br>
 유저가 대사 선택시 대사 저장<br><br>
 
 *****
+
+### 서버 API
+[서버 API로 이동](https://github.com/PowerLichen/shadowing/tree/master/back)
