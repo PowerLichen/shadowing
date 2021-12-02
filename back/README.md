@@ -5,7 +5,14 @@
 * 회원 시스템 API
     * [loadUser](#loadUser)
     * [Join](#Join)
+    * [checkId](#checkId)
+    * [login](#login)
+    * [logout](#logout)
+    * [studyTime](#studyTime)
 * 쉐도잉 영상 API
+    * [loadscript](#loadscript)
+    * [reloadCaption](#reloadCaption)
+    * [loadCurIndex](#loadCurIndex)
 
 ---
 ## loadUser
