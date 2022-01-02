@@ -16,19 +16,19 @@
 하지만 시장에 외국인들이 자연스러운 한국어를 구사 할 수 있도록 도와줄 수 있는 프로그램은 없었다.<br><br>
 외국인들에게 도움이 되고 싶었고, 독창적인 프로젝트를 진행하고 싶었다.
 
-<b>기간: 2021.08.08 ~ 2021.11.22 (3개월 14일)</b> 
-<b>인원: 2인(Front, Back)</b>
-<b>구성: React, ResuxSaga, Node.js Express, AWS RDS MySQL, AWS EC2</b>
-<b>사용기술: passport, youtube-captions module</b>
+<b>기간: 2021.08.08 ~ 2021.11.22 (3개월 14일)</b>  
+<b>인원: 2인(Front, Back)</b>  
+<b>구성: React, ResuxSaga, Node.js Express, AWS RDS MySQL, AWS EC2</b>  
+<b>사용기술: passport, youtube-captions module</b>  
 
 ![image](https://user-images.githubusercontent.com/79042667/140606903-72894653-8588-433b-a5ce-88a8d86ae257.png)
 *****
 
 ### 담당 업무 ❓
-* 회원 시스템 API
-* 유튜브 자막 불러오기 API
-* 유튜브 자막 갱신 API
-* 시청기록 저장 API
+* 회원 시스템 API  
+* 유튜브 자막 불러오기 API  
+* 유튜브 자막 갱신 API  
+* 시청기록 저장 API  
 
 ### 어떤 기능 ❓
 
